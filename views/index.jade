@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  //for循环
+  ul
+    - for (var i = 0; i < array.length; ++i) {
+    li  #{array[i]}
+    - }
+  //each 循环；  
+  ul
+    each val, index in ["1", "2", '3']
+        li= index + ": " + val
+ 
