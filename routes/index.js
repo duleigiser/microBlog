@@ -17,5 +17,3 @@ router.get('/u/:user',function (req,res,next) {
     })
 })
 module.exports = router;
-
-
