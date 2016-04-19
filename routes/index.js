@@ -9,11 +9,4 @@ router.get('/', function(req, res, next) {
        
      });
 });
-
-
-router.get('/u/:user',function (req,res,next) {
-    res.render('user',{
-        
-    })
-})
 module.exports = router;
