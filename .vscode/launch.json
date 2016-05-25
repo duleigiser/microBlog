@@ -10,7 +10,7 @@
 			"args": [],
 			"cwd": "${workspaceRoot}",
 			"preLaunchTask": null,
-			"runtimeExecutable": null,
+			"runtimeExecutable":"c:\\Program Files\\nodejs\\node.exe",
 			"runtimeArgs": [
 				"--nolazy"
 			],
@@ -18,7 +18,7 @@
 				"NODE_ENV": "development"
 			},
 			"externalConsole": false,
-			"sourceMaps": false,
+			"sourceMaps": true,
 			"outDir": null
 		},
 		{
